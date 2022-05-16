@@ -1,148 +1,137 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en" style="background:#16191b;">
 <head>
-    <meta charset="utf-8">
-    <title>RainySummerLuo GitHub Pages</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/icon/apple-touch-icon.png">
-    <link rel="manifest" href="/icon/site.webmanifest">
-    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/icon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="/icon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8"/>
+    <meta content="RainySummer" name="author"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/icon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/icon/apple-touch-icon.png" rel="icon" type="image/png">
+    <link href="/icon/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/icon/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+          rel="stylesheet">
     <style>
-        html {
-            height: 100vh;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
         body {
-            margin: auto;
-            height: 100vh;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            color: #fff;
-            background-color: #222;
+            font-family: 'Open Sans', sans-serif;
         }
 
-        .container {
-            margin: 0 auto 0;
-            align-items: center;
-            text-align: center;
-            vertical-align: middle;
-        }
-
-        #cat {
-            height: 12vh;
-            margin-bottom: 12vh;
-        }
-
-        #div {
-            margin-bottom: 12vh;
-        }
-
-        .text {
-            text-align: justify;
-            text-align-last: justify;
-            text-justify: auto;
-        }
-
-        .text:after {
-            content: '';
-            display: inline-block;
-            width: 100%;
-
-        }
-
-        #gry {
-            color: #a7a7a7;
-        }
-
-        a:link {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: #fff;
+        a {
+            color: #eee;
             text-decoration: none;
         }
 
         a:hover {
-            color: #a7a7a7;
-            text-decoration: none;
+            text-decoration: underline;
         }
 
-        a:active {
-            color: #fff;
-            text-decoration: none;
+        #desktop {
+            margin-right: 10vw;
         }
 
-        @media screen and (orientation: portrait) {
-            body {
-                width: 80vw;
-            }
+        #mobile {
+            margin-top: 5vh;
+        }
 
-            .ca {
-                width: 20vw;
-            }
+        #mobile tr {
+            height: 5vh;
+        }
 
-            .space {
-                width: 15vw;
-            }
+        h1 {
+            font-weight: 300;
+            color: #eee;
+        }
 
-            h1 {
-                font-size: 3vh;
-            }
+        p {
+            color: #eee;
+            margin-top: 5vh;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: .15em;
+        }
 
-            h2 {
-                font-size: 2.5vh;
-            }
+        div {
+            margin: 20vh auto;
+            max-width: 50vw;
+        }
+
+        #at {
+            color: #808080;
+            font-size: 60%;
+        }
+
+        .link {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 5vh;
+        }
+
+        tr {
+            align-items: center;
+            align-content: center;
         }
 
         @media screen and (orientation: landscape) {
-            body {
-                width: 40vw;
-            }
-
-            .ca {
-                width: 6vw;
-            }
-
-            .space {
-                width: 6vw;
-            }
-
-            h1 {
-                font-size: 4vh;
-            }
-
-            h2 {
-                font-size: 3vh;
+            #mobile {
+                display: none;
             }
         }
+
+        @media screen and (orientation: portrait) {
+            #desktop {
+                display: none;
+            }
+        }
+
+        img {
+            width: 60px;
+            border-radius: 50px;
+        }
     </style>
-    <link rel="stylesheet" href="https://www.lzc.app/lineawesome/css/line-awesome.min.css">
+    <title>RainySummer</title>
 </head>
-
 <body>
-    <div class="container">
-        <img id="cat" src="https://pages.github.com/images/logo.svg" alt="Life of a Cat" />
-        <div id="div">
-            <h1 class="text">RainySummerLuo . GitHub . io</h1>
-            <h2 class="text" id="gry">Hosted on GitHub Pages</h2>
-        </div>
-        <div>
-            <h2 class="text">
-                ⭐ <a href="https://github.com/RainySummerLuo">GitHub</a>
-                &emsp;/&emsp;
-                🏠 <a href="https://www.lzc.app/">www.LZC.app</a>
-            </h2>
-        </div>
+<div>
+    <img alt="Avatar" src="./icon/apple-touch-icon.png">
+    <h1>
+        RainySummer <span id="at"><i class="las la-at"></i> GitHub Pages</span>
+    </h1>
+    <p>
+        I am a developer and designer focused on user experience. I have five years of experience creating web apps,
+        mobile apps, websites, and native desktop software.
+    </p>
+    <table class="link" id="desktop">
+        <tr>
+            <td><a href="https://www.lzc.app"><i class="las la-globe"></i> LZC.app</a></td>
+            <td><a href="https://blog.lzc.app"><i class="las la-blog"></i> Blog.LZC.app</a></td>
+            <td><a href="https://github.com/RainySummerLuo"><i class="lab la-github"> GitHub</i></a></td>
+            <td><a href="mailto:admin@lzc.app"><i class="las la-envelope"></i> Admin@LZC.app</a></td>
+        </tr>
+    </table>
+    <table class="link" id="mobile">
+        <tr>
+            <td><a href="https://www.lzc.app"><i class="las la-globe"></i></a></td>
+            <td><a href="https://www.lzc.app">LZC.app</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://blog.lzc.app"><i class="las la-blog"></i></a></td>
+            <td><a href="https://blog.lzc.app">Blog.LZC.app</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/RainySummerLuo"><i class="lab la-github"></i></a></td>
+            <td><a href="https://github.com/RainySummerLuo">GitHub</a></td>
+        </tr>
+        <tr>
+            <td><a href="mailto:admin@lzc.app"><i class="las la-envelope"></i></a></td>
+            <td><a href="mailto:admin@lzc.app">Admin@LZC.app</a></td>
+        </tr>
+    </table>
+</div>
 </body>
-
 </html>
