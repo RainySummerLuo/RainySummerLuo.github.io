@@ -5,4 +5,4 @@
 
 **CNAME**
 
-- rainysummerluo.github.io :arrow_right: github.lzc.app
+- lzcapp.github.io :arrow_right: github.lzc.app
