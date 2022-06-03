@@ -16,6 +16,11 @@
         }
 
         body {
+            margin: auto;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
             font-family: 'Open Sans', sans-serif;
         }
 
@@ -46,7 +51,6 @@
 
         h1 {
             color: #eee;
-            vertical-align: middle;
             display: block;
         }
 
@@ -59,7 +63,6 @@
         }
 
         div {
-            margin: 20vh auto;
             max-width: 50vw;
         }
 
@@ -83,19 +86,23 @@
         }
 
         @media screen and (orientation: landscape) {
-            #mobile {
+            .mobile {
                 display: none;
+            }
+
+            p {
+                margin: 12vh 0;
             }
         }
 
         @media screen and (orientation: portrait) {
-            #desktop {
+            .desktop {
                 display: none;
             }
         }
 
         img {
-            width: 80px;
+            width: 6rem;
             vertical-align: middle;
         }
 
@@ -106,22 +113,35 @@
     <title>RainySummer</title>
 </head>
 <body>
-<div>
+<div id="content">
 
-    <h1>
-        <img alt="Avatar" src="./icon/jellyfish.png">&ensp;RainySummer&emsp;<span id="at"><i class="las la-at"></i> GitHub Pages</span>
+    <h1 class="desktop">
+        <img alt="Avatar" src="./icon/jellyfish.png">&ensp;RainySummer&emsp;<span id="at"><i class="las la-at"></i>&thinsp;GitHub Pages</span>
+    </h1>
+    <h1 class="mobile" style="line-height: 1.5rem;">
+        <table>
+            <tr>
+                <td>
+                    <img alt="Avatar" src="./icon/jellyfish.png">
+                </td>
+                <td>
+                    RainySummer&emsp;<span id="at"><br>
+                    <i class="las la-at"></i>&thinsp;GitHub Pages</span>
+                </td>
+            </tr>
+        </table>
     </h1>
     <p>
         I am a developer and designer focused on user experience. I have five years of experience creating web apps,
         mobile apps, websites, and native desktop software.
     </p>
-    <div class="link" id="desktop">
+    <div class="link desktop">
         <a href="https://www.lzc.app"><i class="las la-globe"></i>LZC.app</a>
         <a href="https://blog.lzc.app"><i class="las la-blog"></i>Blog.LZC.app</a>
         <a href="https://github.com/lzcapp"><i class="lab la-github"></i>GitHub</a>
         <a href="mailto:admin@lzc.app"><i class="las la-envelope"></i>Admin@LZC.app</a>
     </div>
-    <table class="link" id="mobile">
+    <table class="link mobile">
         <tr>
             <td><a href="https://www.lzc.app"><i class="las la-globe"></i></a></td>
             <td><a href="https://www.lzc.app">LZC.app</a></td>
