@@ -6,4 +6,4 @@
 
 **CNAME**
 
-- lzcapp.github.io :arrow_right: github.lzc.app :arrow_right: lzc.app :arrow_right: www.lzc.app
+lzcapp.github.io :arrow_right: github.lzc.app :arrow_right: lzc.app :arrow_right: www.lzc.app
