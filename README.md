@@ -4,6 +4,6 @@
 &ensp;
 ![Website](https://img.shields.io/website?label=github.lzc.app&style=for-the-badge&url=https%3A%2F%2Fgithub.lzc.app%2F)
 
-**CNAME**
+## CNAME
 
 lzcapp.github.io :arrow_right: github.lzc.app :arrow_right: lzc.app :arrow_right: www.lzc.app
